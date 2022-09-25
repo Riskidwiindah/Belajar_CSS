@@ -1,0 +1,37 @@
+h1 {
+    background-color: aqua;
+    /* mengasih jarak di dalam kotak */
+    padding: 30px;
+    /* margin yang mengatur jarak luar kotak  */
+    margin: 0 100px;
+    /* border merupakan pinggiran dari si kotak */
+    border: 3px solid yellow;
+    /* display block artinya menguasai satu blok keseruhan (by default)
+    display inline artinya ukurannya akan sebesar kontennya saja
+    display none artinya elementnya akan hilang dan posisi digantikan oleh element lainnya
+    visibility hidden elementnya hilang namun posisinya tidak digantilan oleh element yang lainnya 
+    display flax untuk memberikan gambar dan tulisan bersebelahan*/
+    display: inline-block;
+}
+/* img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 100px;
+    /* posisi absolut dia akan mengikuti induknya yang posisinya relative */
+.dekripsi {
+    position: relative;
+}
+.dekripsi img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* z index untuk memberikan position front atau back semakin kecil nilai berarti di belakang text, semakin gede nilainya berarti didepan text */
+    height: 10;
+    width: 10;
+    z-index: -10;
+}
+
+.dekripsi-flex {
+    display: flex;
+}
